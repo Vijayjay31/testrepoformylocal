@@ -3,3 +3,9 @@ variable "GR" {
   
 
 }
+
+resource "azurerm_resource_group" "testrg" {
+    name = "resiioll"
+    location = "east us"
+  
+}
